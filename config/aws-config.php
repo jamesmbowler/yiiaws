@@ -13,9 +13,9 @@ return array(
 	'services' => array(
 		'default_settings' => array(
 			'params' => array(
-				'key'    => '{YOUR-AWS-KEY}',
-				'secret' => '{YOUR-AWS-SECRET}',
-				'region' => 'us-east-1'
+				'key'    => AWS_ACCESS_KEY_ID,
+				'secret' => AWS_SECRET_KEY,
+				'region' => AWS_REGION
 			)
 		)
 	)
